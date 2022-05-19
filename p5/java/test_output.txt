@@ -1,0 +1,221 @@
+fail_char_1.scm
+Syntax Error: Unrecognized character on line 1, column 1
+fail_char_2.scm
+Syntax Error: Unrecognized character on line 1, column 1
+fail_char_3.scm
+Syntax Error: Unrecognized character on line 1, column 1
+fail_char_4.scm
+Syntax Error: Unrecognized character on line 1, column 1
+fail_identifier_1.scm
+Syntax Error: Unrecognized token on line 1, column 2
+fail_identifier_2.scm
+Syntax Error: Unrecognized token on line 1, column 4
+fail_identifier_3.scm
+Syntax Error: Unrecognized token on line 1, column 2
+fail_identifier_4.scm
+Syntax Error: Unrecognized token on line 1, column 4
+fail_identifier_5.scm
+Syntax Error: Number is missing a digit after sign column: 1 line: 1
+fail_identifier_6.scm
+Syntax Error: Number is missing a digit after sign column: 1 line: 1
+fail_identifier_7.scm
+Syntax Error: Number is missing a digit after sign column: 1 line: 1
+fail_num_1.scm
+Syntax Error: Unrecognized token on line 1, column 1
+fail_num_2.scm
+Syntax Error: Number is missing a digit after sign column: 1 line: 1
+fail_num_3.scm
+Syntax Error: Number is missing a digit after sign column: 1 line: 1
+fail_num_4.scm
+Syntax Error: Number is missing a digit after sign column: 1 line: 1
+fail_string_1.scm
+begin 3, end 4, length 3
+fail_string_2.scm
+begin 8, end 9, length 8
+fail_string_3.scm
+<StrToken line=1 col=1 val='\\p' />
+<EofToken />
+fail_token_1.scm
+Syntax Error: Unrecognized token on line 1, column 1
+fail_token_2.scm
+Syntax Error: Unrecognized token on line 1, column 2
+fail_token_3.scm
+Syntax Error: Unrecognized token on line 1, column 1
+fail_token_4.scm
+Syntax Error: Unrecognized token on line 1, column 2
+fail_token_5.scm
+Syntax Error: Unrecognized token on line 1, column 1
+fail_token_6.scm
+Syntax Error: Unrecognized token on line 1, column 1
+fail_token_7.scm
+Syntax Error: Unrecognized token on line 1, column 1
+pass_bool_false.scm
+<BoolToken line=1 col=1 val='false' />
+<EofToken />
+pass_bool_true.scm
+<BoolToken line=1 col=1 val='true' />
+<EofToken />
+pass_char_a.scm
+<CharToken line=1 col=1 val='a' />
+<EofToken />
+pass_char_backslash.scm
+<CharToken line=1 col=1 val='\\' />
+<EofToken />
+pass_char_lparen.scm
+<CharToken line=1 col=1 val='(' />
+<EofToken />
+pass_char_newline.scm
+<CharToken line=1 col=1 val='\n' />
+<EofToken />
+pass_char_pound.scm
+<CharToken line=1 col=1 val='#' />
+<EofToken />
+pass_char_quote.scm
+<CharToken line=1 col=1 val='"' />
+<EofToken />
+pass_char_rparen.scm
+<CharToken line=1 col=1 val=')' />
+<EofToken />
+pass_char_space.scm
+<CharToken line=1 col=1 val=' ' />
+<EofToken />
+pass_char_tab.scm
+<CharToken line=1 col=1 val='\t' />
+<EofToken />
+pass_char_tick.scm
+<CharToken line=1 col=1 val='\'' />
+<EofToken />
+pass_comment.scm
+<EofToken />
+pass_empty.scm
+pass_float_minus.scm
+<DblToken line=1 col=1 val='-7.7' />
+<EofToken />
+pass_float_plus.scm
+<DblToken line=1 col=1 val='7.7' />
+<EofToken />
+pass_float.scm
+Syntax Error: Number is missing a digit after sign column: 1 line: 1
+pass_id_amp.scm
+<IdentifierToken line=1 col=1 val='&k' />
+<EofToken />
+pass_id_carat.scm
+<IdentifierToken line=1 col=1 val='^a' />
+<EofToken />
+pass_id_charnum.scm
+<IdentifierToken line=1 col=1 val='a7' />
+<EofToken />
+pass_id_colon.scm
+<IdentifierToken line=1 col=1 val=':h' />
+<EofToken />
+pass_id_complex.scm
+<IdentifierToken line=1 col=1 val='aa.+-b' />
+<EofToken />
+pass_id_div.scm
+<IdentifierToken line=1 col=1 val='/i' />
+<EofToken />
+pass_id_dollar.scm
+<IdentifierToken line=1 col=1 val='$m' />
+<EofToken />
+pass_id_excl.scm
+<IdentifierToken line=1 col=1 val='!n' />
+<EofToken />
+pass_id_gt.scm
+<IdentifierToken line=1 col=1 val='>e' />
+<EofToken />
+pass_id_lt.scm
+<IdentifierToken line=1 col=1 val='<g' />
+<EofToken />
+pass_id_percent.scm
+<IdentifierToken line=1 col=1 val='%l' />
+<EofToken />
+pass_id_question.scm
+<IdentifierToken line=1 col=1 val='?d' />
+<EofToken />
+pass_id_star.scm
+<IdentifierToken line=1 col=1 val='*j' />
+<EofToken />
+pass_id_tilde.scm
+<IdentifierToken line=1 col=1 val='~c' />
+<EofToken />
+pass_id_underscore.scm
+<IdentifierToken line=1 col=1 val='_b' />
+<EofToken />
+pass_int_minus.scm
+<IntToken line=1 col=1 val='-7' />
+<EofToken />
+pass_int_plus.scm
+<IntToken line=1 col=1 val='7' />
+<EofToken />
+pass_int.scm
+Syntax Error: Number is missing a digit after sign column: 1 line: 1
+pass_kw_and.scm
+<AndToken line=1 col=1 />
+<EofToken />
+pass_kw_begin.scm
+<BeginToken line=1 col=1 />
+<EofToken />
+pass_kw_cond.scm
+<CondToken line=1 col=1 />
+<EofToken />
+pass_kw_define.scm
+<DefineToken line=1 col=1 />
+<EofToken />
+pass_kw_if.scm
+<IfToken line=1 col=1 />
+<EofToken />
+pass_kw_lambda.scm
+<LambdaToken line=1 col=1 />
+<EofToken />
+pass_kw_lparen.scm
+<LParenToken line=1 col=1 />
+<EofToken />
+pass_kw_or.scm
+<OrToken line=1 col=1 />
+<EofToken />
+pass_kw_quote.scm
+<QuoteToken line=1 col=1 />
+<EofToken />
+pass_kw_rparen.scm
+<RParenToken line=1 col=2 />
+<EofToken />
+pass_kw_set.scm
+<SetToken line=1 col=1 />
+<EofToken />
+pass_kw_vec.scm
+<VectorToken line=1 col=1 />
+<EofToken />
+pass_line_col.scm
+<AbbrevToken line=5 col=4 />
+<LParenToken line=5 col=5 />
+<RParenToken line=5 col=6 />
+<AbbrevToken line=8 col=2 />
+<LParenToken line=8 col=3 />
+<RParenToken line=8 col=4 />
+<EofToken />
+pass_quote_float.scm
+Syntax Error: Number is missing a digit after sign column: 2 line: 1
+pass_quote_int.scm
+Syntax Error: Number is missing a digit after sign column: 2 line: 1
+pass_quote_list_empty.scm
+<AbbrevToken line=1 col=1 />
+<LParenToken line=1 col=2 />
+<RParenToken line=1 col=3 />
+<EofToken />
+pass_quote_list_nonempty.scm
+Syntax Error: Number is missing a digit after sign column: 3 line: 1
+pass_quote_symbol_long.scm
+<AbbrevToken line=1 col=1 />
+<IdentifierToken line=1 col=2 val='abcdefg' />
+<EofToken />
+pass_quote_symbol_short.scm
+<AbbrevToken line=1 col=1 />
+<IdentifierToken line=1 col=2 val='a' />
+<EofToken />
+pass_quote_vec_nonempty.scm
+Syntax Error: Number is missing a digit after sign column: 4 line: 1
+pass_string_escaped.scm
+Syntax Error: Unrecognized token on line 1, column 20
+pass_string.scm
+<StrToken line=1 col=1 val='string' />
+<EofToken />
